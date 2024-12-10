@@ -2,12 +2,12 @@ POST http://localhost:6000/products
 Content-Type: application/json
 
 {
-    "nameProduct":"Nasi Pecel",
+    "nameProduct":"lkh",
     "categories":"Makanan",
     "madeIn":"Madiun"
 }
 ###
-DELETE http://localhost:6000/products/63c16a8124a11fc0dc1a5915
+DELETE http://localhost:6000/products/6758420508aa86956e23557e
 ###
 
 PATCH http://localhost:6000/products/63c16b0f24a11fc0dc1a591a
@@ -16,3 +16,5 @@ Content-Type: application/json
 {
     "madeIn":"Semarang"
 }
+###
+GET http://localhost:6000/products
